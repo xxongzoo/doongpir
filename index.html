@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>장꾸둥</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #abbbe1;
+
+      /* background: linear-gradient(to bottom, #1c5760, #1c5760, #22646e); */
+    }
+    iframe {
+      border: none;
+      height: 100%;
+      width: 49%;
+      float: left;
+    }
+    @media (max-width: 600px) {
+      /* 화면이 작을 때 반응형 스타일 */
+      .frame1 {
+        width: 100%;
+        height: 30%;
+        float: none;
+      }
+      .frame2 {
+        width: 100%;
+        height: 70%;
+        float: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <iframe src='3dpage/3dpir.html' frameborder="0" scrolling="no" class="frame1"></iframe>
+  <iframe src="chatpage/chatpir/frontend/index.html" frameborder="0" scrolling="no" class="frame2"></iframe>
+</body>
+</html>
